@@ -62,4 +62,5 @@ fdata_1<-merge(x=fdata,y=mapx,by="weekday",all.x=TRUE)
 gdata<-aggregate(steps~interval+weekdayornot,fdata_1,mean)
 xyplot(steps~interval | weekdayornot,data=gdata, layout = c(1, 2),type="l", xlab="Interval", ylab="Number of Steps", scales=list(cex=.8, col="black"))
 ```
+
 The activity in later periods on weekend is considerably higher than later periods on weekdays.

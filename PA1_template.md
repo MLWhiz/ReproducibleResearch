@@ -85,4 +85,5 @@ xyplot(steps~interval | weekdayornot,data=gdata, layout = c(1, 2),type="l", xlab
 ```
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
+
 The activity in later periods on weekend is considerably higher than later periods on weekdays.
